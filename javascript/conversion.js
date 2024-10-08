@@ -38,3 +38,5 @@ let num =4
 let valueofnum = String(num)
 console.log(valueofnum)
 console.log(typeof valueofnum)
+console.log(1+2+"3")
+console.log("1"+"2"+3)
