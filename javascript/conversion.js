@@ -34,3 +34,7 @@ const anotherid = Symbol("234")
 console.log(id === anotherid)*/
 console.log(2+3)
 console.log(2-3)
+let num =4
+let valueofnum = String(num)
+console.log(valueofnum)
+console.log(typeof valueofnum)
