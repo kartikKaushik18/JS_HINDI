@@ -11,3 +11,10 @@ console.log(array4)
 const array6 = [3,4,5,6,7,78,[3,2,2,5,6,[2,3,4]]]
 const array7 =array6.flat(Infinity)
 console.log(array7)
+//Array.from("hitesh") to array in console
+let marks1 = 70
+let marks2 =80
+let marks = 90
+console.log(Array.of(marks1,marks2,marks))
+const name1 = ["hitesh"]
+console.log(Array.from("hitesh"))
