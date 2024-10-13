@@ -27,4 +27,35 @@ console.log(`hello",${this.name}`)
 console.log(user.greetings())
 console.log(user.greetingsecond())
 
+const kartik ={
+    username:" dev ",
+    age:29,
+    fullname :{
+      firstname : " subash",
+      lastanme :" goswami"
 
+    }
+}
+console.log(kartik.fullname.firstname)
+const obj1 ={
+  1:"a",
+  2:"b",
+  3:"c",
+  4:"d"
+
+}
+const obj2 ={
+  1:"f",
+  2:"g",
+  3:"h",
+  4:"i"
+
+}
+console.log(obj2)
+//merge two objects
+const obj3 =Object.assign(obj1,obj2)
+console.log(obj3)
+const obj4 =Object.assign({},obj1,obj2)
+console.log(Object.keys(kartik))
+console.log(Object.values(kartik))
+console.log(kartik.hasOwnProperty('age'))
