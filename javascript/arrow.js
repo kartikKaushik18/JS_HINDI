@@ -27,5 +27,17 @@ hello();
     console.log(" kartik");
     
     })();
+// arrow using IIFE
+((name)=>{
+
+    console.log(`db is connected ${name}`)
+})('kaushik');
+
+
+
+
+
+
+
 
 
